@@ -1,0 +1,20 @@
+---
+title: "Etusivu"
+layout: single
+type: pages
+excerpt: "Linkistä alla OpenLayers kartalle:"
+sitemap: false
+header:
+  overlay_image: assets/images/Maisema_banner.png
+  caption: "Photo: Timo Hoo"
+  cta_label: "Kartat"
+  cta_url: "/OpenLayers"
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
