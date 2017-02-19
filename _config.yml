@@ -19,11 +19,11 @@ title                      :  "TimoHoo:n karttaharjoitus"
 title_separator     : "-"
 name                   : &name
 description           : "komia webbisivu."
-url                        : "https://TimoHoo.github.io/GeoLoc" # "http://localhost:4000" #
+url                        : "https://TimoHoo.github.io" # "http://localhost:4000" #
 baseurl                : "" # the subpath of your site, e.g. "/blog"
 repository            : "TimoHoo/GeoLoc" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                  : "/assets/images/Puu_500_300.png" # filename of teaser fallback teaser image
-breadcrumbs            : true # true, false (default)
+breadcrumbs            : false # true, false (default)
 words_per_minute    : 150
 
 comments:
