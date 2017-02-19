@@ -1,6 +1,5 @@
-# hello-world
-First shot - hello
+# Repository for Openlayer map html and js files
 
-In the editor, write a bit about yourself.
-Write a commit message that describes your changes.
-Click Commit changes button.
+Codes are in xx branch.
+
+Inspired by www.openlayers.org and https://jekyllrb.com/
