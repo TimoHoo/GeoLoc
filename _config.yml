@@ -234,4 +234,4 @@ compress_html:
     envs: development
 
 # Build settings
-theme: jekyll-theme-tactile
+# theme: jekyll-theme-tactile
