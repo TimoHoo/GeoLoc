@@ -6,8 +6,8 @@ main:
   - title: "Drag'nDrop Kartta"
     url: /OpenLayersD2D
 
-  - title: "Yhteystiedot"
-    url: /Yhteystiedot
+  - title: "Goog Geoloc Kartta"
+    url: /OpenLayersG
 
   - title: "Arkisto"
     url: /Arkisto
