@@ -2,7 +2,7 @@
 layout: default
 permalink: /OpenLayers
 
-modified: 2017-02-19
+modified: 2017-02-23
 ---
 <html>
   <head>
@@ -11,6 +11,7 @@ modified: 2017-02-19
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
 
     <script src="assets/js/ol.js"></script>
+    <script src="assets/js/proj4.js"></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -59,7 +60,7 @@ modified: 2017-02-19
       nopeus: <code id="speed"></code>
     </p>
 
-    <script src="assets/js/bundle_geoloc.js"> </script>
+    <script src="assets/js/bundlegeoloc.js"> </script>
 
   </body>
 </html>

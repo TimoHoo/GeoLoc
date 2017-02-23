@@ -6,26 +6,30 @@ var ol = require('openlayers');
     zoom: 11
   });
 
+proj4.defs('EPSG:3857');
+
   var map = new ol.Map({
     layers: [
       new ol.layer.Tile({
-      source: new ol.source.TileWMS({
-//            url: 'http://tiles.kartat.kapsi.fi/ortokuva?'
-            url: 'http://tiles.kartat.kapsi.fi/peruskartta?',
-            projection: 'EPSG:3067'
+      source: new ol.source.TileImage({
+//            url: 'http://tiles.kartat.kapsi.fi/ortokuva/{z}/{x}/{y}.jpg',
+            url: 'http://tiles.kartat.kapsi.fi/peruskartta/{z}/{x}/{y}.jpg',
+            projection: 'EPSG:3857' // = sama kuin kapsin EPSG:900913 /
       })
       })
     ],
     target: 'map',
     controls: ol.control.defaults().extend([
-       new ol.control.FullScreen({tipLabel: 'Klikkaa koko ruudun kartta', collapsible: true})
+       new ol.control.FullScreen({
+         tipLabel: 'Vaihda koko ruudun tila',
+         collapsible: true, label: '\u2922',
+         labelActive: 'X'})
      ]),
     view: view
   });
 
   var geolocation = new ol.Geolocation({
     projection: view.getProjection()
-
   });
 
   function el(id) {
