@@ -60,7 +60,7 @@ modified: 2017-02-23
       nopeus: <code id="speed"></code>
     </p>
 
-    <script src="assets/js/bundlegeoloc.js"> </script>
+    <script src="assets/js/bundlegeoloc.js" charset="UTF-8"> </script>
 
   </body>
 </html>
