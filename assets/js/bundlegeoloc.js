@@ -22,7 +22,7 @@ proj4.defs('EPSG:3857');
     controls: ol.control.defaults().extend([
        new ol.control.FullScreen({
          tipLabel: 'Vaihda koko ruudun tila',
-         collapsible: true, label: '\u2922',
+         collapsible: true, label: '<>',
          labelActive: 'X'})
      ]),
     view: view
