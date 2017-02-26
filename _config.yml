@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # Site Settings
 locale                  : "fi"
-title                      :  "TimoHoo:n karttaharjoitus"
+title                      :  "TimoHoo:n kartat"
 title_separator     : "-"
 name                   : &name
 description           : "komia webbisivu."
