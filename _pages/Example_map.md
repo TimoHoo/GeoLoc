@@ -2,7 +2,7 @@
 layout: default
 permalink: /OpenLayers
 
-modified: 2017-02-23
+modified: 2017-03-09
 ---
 <html>
   <head>
@@ -45,10 +45,10 @@ modified: 2017-02-23
   </head>
   <body>
     <div id="map" class="map"></div>
-    <div id="info" style="display: none;"></div>
+    <div id="info">&nbsp;</div>
     <div class="icon-github"></div>
     <label for="track">
-      paikanna sijainti
+      Oma sijainti
       <input id="track" type="checkbox"/>
     </label>
     <p>
@@ -60,7 +60,7 @@ modified: 2017-02-23
       nopeus: <code id="speed"></code>
     </p>
 
-    <script src="assets/js/bundlegeoloc.js" charset="UTF-8"> </script>
+    <script src="assets/js/bundlegeoloc2.js" charset="UTF-8"> </script>
 
   </body>
 </html>
