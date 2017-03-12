@@ -80,6 +80,7 @@ var reittiviiva = new ol.layer.Vector({
          tipLabel: 'Vaihda koko ruudun tila',
          collapsible: true, label: '<>',
          labelActive: 'X'}),
+       new ol.control.ScaleLine(),
      ]),
     view: view
   });
