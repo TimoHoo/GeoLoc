@@ -69,6 +69,7 @@ var reittiviiva = new ol.layer.Vector({
       source: new ol.source.TileImage({
 //            url: 'http://tiles.kartat.kapsi.fi/ortokuva/{z}/{x}/{y}.jpg',
             url: 'http://tiles.kartat.kapsi.fi/peruskartta/{z}/{x}/{y}.jpg',
+            attributions: '© <a href="http://www.mml.fi">sisältää Maanmittauslaitoksen Maastotietokannan 06/2014 aineistoa</a>',           
             projection: 'EPSG:3857' // = sama kuin kapsin EPSG:900913 /
       })
     }),
