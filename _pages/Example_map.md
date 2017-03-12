@@ -2,7 +2,7 @@
 layout: default
 permalink: /OpenLayers
 
-modified: 2017-03-09
+modified: 2017-03-12
 ---
 <html>
   <head>
@@ -60,7 +60,7 @@ modified: 2017-03-09
       nopeus: <code id="speed"></code>
     </p>
 
-    <script src="assets/js/bundlegeoloc2.js" charset="UTF-8"> </script>
+    <script src="assets/js/bundlegeoloc3.js" charset="UTF-8"> </script>
 
   </body>
 </html>
