@@ -1,8 +1,8 @@
 ---
-layout: default
+layout:
 permalink: /OpenLayers
 
-modified: 2017-03-12
+modified: 2017-03-13
 ---
 <html>
   <head>
@@ -21,7 +21,7 @@ modified: 2017-03-12
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 256px;
+        height: 400px;
       }
      </style>
   <style>
@@ -43,6 +43,7 @@ modified: 2017-03-12
 </style>
   <link rel="stylesheet" href="assets/css/ol.css" type="text/css">
   </head>
+
   <body>
     <div id="map" class="map"></div>
     <div id="info">&nbsp;</div>
@@ -60,7 +61,7 @@ modified: 2017-03-12
       nopeus: <code id="speed"></code>
     </p>
 
-    <script src="assets/js/bundlegeoloc3.js" charset="UTF-8"> </script>
+    <script src="assets/js/bundle.min.js" charset="UTF-8"> </script>
 
   </body>
 </html>
