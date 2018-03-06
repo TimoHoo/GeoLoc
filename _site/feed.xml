@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-13T18:28:56+02:00</updated><id>http://localhost:4000/</id><title type="html">TimoHoo:n kartat</title><subtitle>komia webbisivu.</subtitle><author><name>Timo Hoo</name></author><entry><title type="html">Jemoji sample</title><link href="http://localhost:4000/jemoji/test/welcome-to-jekyll/" rel="alternate" type="text/html" title="Jemoji sample" /><published>2017-02-19T13:50:19+02:00</published><updated>2017-02-19T13:50:19+02:00</updated><id>http://localhost:4000/jemoji/test/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jemoji/test/welcome-to-jekyll/">&lt;p&gt;Samppeleita :+1:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-06T18:12:54+02:00</updated><id>http://localhost:4000/</id><title type="html">TimoHoo:n kartat</title><subtitle>komia webbisivu.</subtitle><author><name>Timo Hoo</name></author><entry><title type="html">Jemoji samples</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Jemoji samples" /><published>2017-02-19T13:50:19+02:00</published><updated>2017-02-19T13:50:19+02:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;Samppeleita :+1:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;‘+1’ :+1:&lt;/li&gt;
-  &lt;li&gt;:-1:&lt;/li&gt;
-  &lt;li&gt;:octopus: :zap:&lt;/li&gt;
-  &lt;li&gt;:cat:&lt;/li&gt;
-  &lt;li&gt;:octocat:&lt;/li&gt;
-  &lt;li&gt;:raised_hands::gun: :moneybag: :police_car: :boom: :hospital: :syringe: :skull:&lt;/li&gt;
+  &lt;li&gt;‘-1’ :-1:&lt;/li&gt;
+  &lt;li&gt;‘octopus’ :octopus:&lt;/li&gt;
+  &lt;li&gt;‘zap’ :zap:&lt;/li&gt;
+  &lt;li&gt;‘cat ‘:cat:&lt;/li&gt;
+  &lt;li&gt;‘octocat’:octocat:&lt;/li&gt;
+  &lt;li&gt;‘raised_hands’ :raised_hands:&lt;/li&gt;
+  &lt;li&gt;‘gun ‘:gun:&lt;/li&gt;
+  &lt;li&gt;‘moneybag’ :moneybag:&lt;/li&gt;
+  &lt;li&gt;‘police_car’ :police_car:&lt;/li&gt;
+  &lt;li&gt;‘boom’ :boom:&lt;/li&gt;
+  &lt;li&gt;‘hospital’ :hospital:&lt;/li&gt;
+  &lt;li&gt;‘syringe’ :syringe:&lt;/li&gt;
+  &lt;li&gt;‘skull’ :skull:&lt;/li&gt;
   &lt;li&gt;:oden: :spaghetti: :cookie: :stew: :ice_cream: :icecream: :sushi: :curry: :custard: :dango: :pizza: :ramen: :fried_shrimp:&lt;/li&gt;
   &lt;li&gt;:fries: :chocolate_bar: :hamburger:&lt;/li&gt;
 &lt;/ol&gt;</content><author><name>Timo Hoo</name></author><summary type="html">Samppeleita :+1:</summary></entry></feed>
