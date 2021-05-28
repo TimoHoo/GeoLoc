@@ -268,9 +268,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-paginate
-  jekyll-sitemap
-  jemoji
+  jekyll-feed
+  jekyll-seo-tag
+  minima
 
 RUBY VERSION
    ruby 2.7.0p0
